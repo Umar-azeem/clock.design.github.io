@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(5, 5, 56);
+
+}
+.main{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top: 25%;
+    
+}
+.round
+{
+    background-color: white;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+.cercul
+{
+    height: 19rem;
+    width: 19rem;
+    border: 10px solid  rgb(5, 5, 56);
+    border-radius: 50%;
+    margin: 8px 8px;
+}
+.point{
+    width:15px;
+    height:15px;
+    background-color:rgb(5, 5, 56) ;
+    border-radius: 50%;
+    position:absolute;
+    top: 152px;
+    left: 635px;
+}
+.hours{
+    font-size: 28px;
+    font-weight: bold;
+    color:rgb(219, 11, 11) ;
+    position: absolute;
+}
+.hours-1{
+    top: 28px;
+    right: 35.5rem;
+}
+.hours-2{
+    top: 74px;
+  right: 32.5rem;
+}
+.hours-3{
+    top: 137px;
+    right: 31.33rem;
+  }
+.hours-4{
+    top: 202px;
+  right: 32.5rem;
+}
+.hours-5{
+    top: 250px;
+  right: 35.5rem;
+}
+.hours-6{
+    top: 267px;
+  right: 39.4rem;
+}
+.hours-7{
+    top: 250px;
+    right: 43.5rem;
+  }
+.hours-8{
+    top: 202px;
+    right: 46.6rem;
+
+}
+.hours-9{
+    top: 134px;
+    right: 47.5rem;
+}
+.hours-10{
+    font-size: 25px;
+    top: 74px;
+    right: 45.8rem;
+}
+.hours-11{
+    font-size: 25px;
+    top: 28px;
+    right: 42.8rem;
+}
+.hours-12{
+    font-size: 25px;
+    top: 10px;
+  right: 39rem;
+}
+.name{
+    font-size: 22px;
+    font-weight:bold ;
+    color: rgb(131, 23, 23);
+    position: absolute;
+    top: 70px;
+  right: 38.6rem;
+}
+.mint-hand-wrapper{
+    width: 225px;
+    height: 220px;
+   
+    position: absolute;
+    top: 49px;
+    left: 532px;
+    border-radius: 50%;
+}
+.mint-hand{
+    position: relative;
+}
+.mint-hand .hand{
+    width: 4px;
+    height: 102px;
+    background-color: rgb(5, 5, 56);
+    position: absolute;
+    left: 108px;
+}
+.mint-hand .arrow{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 31px;
+    font-weight:400;
+    color: rgb(5, 5, 56);
+    transform: rotate(180deg);
+    position: absolute;
+    left: 100px;
+    top: -14px;
+
+}
+.hour-hand-wrapper{
+    width: 217px;
+  height: 177px;
+  position: absolute;
+  top: 30px;
+  border-radius: 50%;
+}
+.hour-hand{
+    position: relative;
+}
+.hour-hand .hand-s{
+  width: 3px;
+  height: 72px;
+  background-color: rgb(201, 201, 221);
+  position: absolute;
+  left: 108px;
+}
